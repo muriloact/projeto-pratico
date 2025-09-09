@@ -1,0 +1,15 @@
+.home-search { display:flex; gap:0.5rem; margin-bottom:1rem; }
+.home-search input { flex:1; padding:0.6rem; border-radius:8px; border:1px solid #e5e7eb; box-sizing:border-box; }
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:1rem; 
+}
+.grid-cards { display:grid; grid-template-columns: repeat(1, 1fr); gap:1rem; }
+@media (min-width:640px){ .grid-cards { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width:1024px){ .grid-cards { grid-template-columns: repeat(3, 1fr); } }
+
+.pagination { display:flex; gap:0.5rem; align-items:center; margin-top:1rem; }
+.pagination button { padding:0.4rem 0.6rem; border-radius:6px; border:1px solid #e6edf3; background:white; cursor:pointer; }
+.pagination button:disabled { opacity:0.5; cursor:not-allowed; }

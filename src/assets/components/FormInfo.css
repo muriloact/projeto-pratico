@@ -1,0 +1,28 @@
+.form-info {
+  background: white;
+  border: 1px solid #e6edf3;
+  padding: 1rem;
+  border-radius:8px;
+}
+.form-info textarea,
+.form-info input[type='text'],
+.form-info input[type='file'] {
+  width:100%;
+  padding:0.5rem;
+  border:1px solid #d1d5db;
+  border-radius:6px;
+  font-size:0.95rem;
+  box-sizing:border-box;
+}
+.form-info textarea { min-height:120px; resize:vertical; }
+.form-info .btn-submit {
+  display:inline-block;
+  width:100%;
+  padding:0.6rem;
+  background:var(--primary);
+  color:white;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+}
+.form-info .btn-submit:disabled { opacity:0.6; cursor:not-allowed; }
